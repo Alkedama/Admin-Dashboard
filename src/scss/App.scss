@@ -11,9 +11,10 @@ $primary-color: #9dc2ff;
 
 body{
     background-color: $primary-color;
+    display: inline;
 }
 
-.mainContainer{
+.container{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,3 +37,7 @@ body{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
+// svg{
+//     display: inline;
+// }
