@@ -28,8 +28,8 @@ Admin Dashboard is a powerful and user-friendly web application designed to prov
 
 ### Prerequisites
 
-- Node.js (Version X.X.X): [Installation Guide](https://nodejs.org/en/download/)
-- NPM (Version X.X.X): [Installation Guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Node.js (Version v18.16.1): [Installation Guide](https://nodejs.org/en/download/)
+- NPM (Version 9.5.1): [Installation Guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Installation
 
