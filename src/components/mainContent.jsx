@@ -2,8 +2,8 @@ import React from 'react'
 
 const mainContent = () => {
   return (
-    <div>
-        Your Projects
+    <div className='mainContent'>
+      Your Projects
       ProjectsContents
 
       Announcement

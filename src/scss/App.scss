@@ -1,10 +1,34 @@
 $primary-color: #9dc2ff;
 
-* {
+*{
     padding: 0;
     margin: 0;
 }
 
 body{
     background-color: $primary-color;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header{
+    background-color: #fd8686;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.sidebar{
+    background-color: #9dffaa;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.mainContent{
+    background-color: #c386fd;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
