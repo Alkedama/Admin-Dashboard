@@ -21,8 +21,9 @@ Admin Dashboard is a powerful and user-friendly web application designed to prov
 ## Technology Used
 
 1. JavaScript
-2. CSS (SCSS)
+2. SCSS
 3. Vite
+4. TailwindCSS
 
 ### Prerequisites
 
