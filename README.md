@@ -1,7 +1,5 @@
 # Admin Dashboard
 
-![Admin Dashboard](dashboard_screenshot.png)
-
 Admin Dashboard is a powerful and user-friendly web application designed to provide administrators with essential tools and insights to manage and monitor various aspects of their system or application. Whether you are overseeing a website, an e-commerce platform, or any other online service, the Admin Dashboard offers a centralized interface to efficiently handle administrative tasks.
 
 ## Features
