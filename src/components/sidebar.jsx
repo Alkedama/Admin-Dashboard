@@ -1,23 +1,52 @@
 import Icon from '@mdi/react';
-import { mdiHome } from '@mdi/js';
+import { mdiHomeOutline, mdiCardAccountDetailsOutline, mdiMessageOutline,
+  mdiHistory, mdiFileDocumentMultipleOutline, mdiAccountGroupOutline,
+  mdiCogOutline, mdiMessageQuestionOutline, mdiShieldCheckOutline, mdiViewDashboardOutline } from '@mdi/js';
 
 const sidebar = () => {
   return (
     <div className='sidebar'>
       <ul>
-        <li className="sidebarItem">Dashboard</li>
         <li className="sidebarItem flex">
-          <Icon path={mdiHome} title="User Profile" size={1} color="black" spin />
-         <span>Home</span>
+          <Icon path={mdiViewDashboardOutline} title="" size={1} />
+          <span>Dashboard</span>
+          </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiHomeOutline} title="Home" size={1} />
+          <span>Home</span>
         </li>
-        <li className="sidebarItem">Profile</li>
-        <li className="sidebarItem">Messages</li>
-        <li className="sidebarItem">History</li>
-        <li className="sidebarItem">Tasks</li>
-        <li className="sidebarItem">Communities</li>
-        <li className="sidebarItem">Settings</li>
-        <li className="sidebarItem">Support</li>
-        <li className="sidebarItem">Privacy</li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiCardAccountDetailsOutline} title="" size={1} />
+          <span>Profile</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiMessageOutline} title="" size={1} />
+          <span>Messages</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiHistory} title="" size={1} />
+          <span>History</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiFileDocumentMultipleOutline} title="" size={1} />
+          <span>Tasks</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiAccountGroupOutline} title="" size={1} />
+          <span>Communities</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiCogOutline} title="" size={1} />
+          <span>Settings</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiMessageQuestionOutline} title="" size={1} />
+          <span>Support</span>
+        </li>
+        <li className="sidebarItem flex">
+          <Icon path={mdiShieldCheckOutline} title="" size={1} />
+          <span>Privacy</span>
+        </li>
       </ul>
     </div>
   )
