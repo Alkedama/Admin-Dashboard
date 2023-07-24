@@ -5,7 +5,7 @@ import { mdiHomeOutline, mdiCardAccountDetailsOutline, mdiMessageOutline,
 
 const sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className='sidebar col-auto'>
       <ul>
         <li className="sidebarItem flex">
           <Icon path={mdiViewDashboardOutline} title="" size={1} />

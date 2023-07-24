@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-$primary-color: #9dc2ff;
+$primary-color: #8f9aaa;
 
 *{
     padding: 0;
@@ -16,16 +16,15 @@ body{
 }
 
 .containerMain{
-    height: 100vh;
-    display: grid;
     grid-template-columns: repeat(1, auto) repeat(1, 1fr);
     grid-template-rows: repeat(1, auto) repeat(1, 1fr);
 }
 
 .header{
-    background-color: #fd8686;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(1, auto) repeat(2, 1fr);
 }
 
 .sidebar{
@@ -35,7 +34,7 @@ body{
 }
 
 .mainContent{
-    background-color: #c386fd;
+    // background-color: #c386fd;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }

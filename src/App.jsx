@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className='containerMain'>
+    <div className='containerMain h-screen grid'>
     <Header />
     <SideBar />
     <MainContent />
