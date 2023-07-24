@@ -28,9 +28,13 @@ body{
 }
 
 .sidebar{
-    background-color: #9dffaa;
+    // background-color: #9dffaa;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+}
+
+.sidebarContent{
+    grid-template-rows: repeat(3, auto);
 }
 
 .mainContent{

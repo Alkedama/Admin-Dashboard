@@ -21,9 +21,13 @@ const header = () => {
 
       <div className='col-start-3 col-end-4 place-self-end'>
         <div className='flex items-center gap-x-4'>
-          <Icon path={mdiBellRingOutline} size={1} />
-          <img src={ProfileImage} className='rounded-full w-12 h-12' alt='Profile Image' />
-          <span className='font-bold'>Kristian Rex Sazon</span>
+          <button>
+            <Icon path={mdiBellRingOutline} size={1} />
+          </button>
+          <button className='flex items-center gap-x-4'>
+            <img src={ProfileImage} className='rounded-full w-12 h-12' alt='Profile Image' />
+            <span className='font-bold'>Kristian Rex Sazon</span>
+          </button>
         </div>
       </div>
 
