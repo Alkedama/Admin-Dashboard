@@ -9,7 +9,7 @@ const mainContent = () => {
         <span className="font-bold">Your Projects</span>
       </div>
 
-      <div className="container mx-auto col-start-1 col-end-2 gap-3 grid projectContent">
+      <div className="container mx-auto max-w-full col-start-1 col-end-2 gap-3 grid projectContent">
         
         <div className="relative bg-white rounded-lg shadow-md px-4 pt-4">
           <div className='bg-blue-500/100 w-3 absolute top-0 left-0 h-full' />
