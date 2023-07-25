@@ -43,7 +43,7 @@ const header = () => {
         <span className='font-bold'>Kristian Rex Sazon (@krsazon)</span>
       </div>
 
-      <div className='grid place-items-center col-start-3 col-end-4 row-start-2 row-end-4'>
+      <div className='grid items-center justify-items-end col-start-3 col-end-4 row-start-2 row-end-4'>
         <ul className='flex gap-x-4'>
           <li className='navItems'>
             <button className='bg-sky-500/75 rounded-full w-20 h-9 text-slate-50/100'>New</button>

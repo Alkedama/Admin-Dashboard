@@ -41,4 +41,14 @@ body{
     // background-color: #c386fd;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    grid-template-columns: repeat(1, 3fr) repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto) repeat(3, 1fr);
+}
+
+.projectContent{
+    resize: both;
+    overflow: auto;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }

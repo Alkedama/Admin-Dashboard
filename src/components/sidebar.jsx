@@ -19,42 +19,42 @@ const sidebar = () => {
         <div className='grid gap-y-6 pb-10'>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiHomeOutline} title="Home" size={1} />
-            <span>Home</span>
+            <button><span>Home</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiCardAccountDetailsOutline} title="" size={1} />
-            <span>Profile</span>
+            <button><span>Profile</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiMessageOutline} title="" size={1} />
-            <span>Messages</span>
+            <button><span>Messages</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiHistory} title="" size={1} />
-            <span>History</span>
+            <button><span>History</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiFileDocumentMultipleOutline} title="" size={1} />
-            <span>Tasks</span>
+            <button><span>Tasks</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiAccountGroupOutline} title="" size={1} />
-            <span>Communities</span>
+            <button><span>Communities</span></button>
           </li>
         </div>
 
         <div className='grid gap-y-6'>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiCogOutline} title="" size={1} />
-            <span>Settings</span>
+            <button><span>Settings</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiMessageQuestionOutline} title="" size={1} />
-            <span>Support</span>
+            <button><span>Support</span></button>
           </li>
           <li className="sidebarItem flex gap-x-1">
             <Icon path={mdiShieldCheckOutline} title="" size={1} />
-            <span>Privacy</span>
+            <button><span>Privacy</span></button>
           </li>
         </div>
       </ul>

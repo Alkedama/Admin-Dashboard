@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className='containerMain h-screen grid'>
+    <div className='containerMain container mx-auto max-w-full h-screen grid'>
     <Header />
     <SideBar />
     <MainContent />
