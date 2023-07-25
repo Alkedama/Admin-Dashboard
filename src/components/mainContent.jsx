@@ -161,15 +161,15 @@ const mainContent = () => {
               </div>
               <div>
                 <span className='font-semibold'>WellnessExplorersss</span>
-                <p className='text-sm'>Green Guardians: Empowering Sustainable Communities</p>
+                <p className='text-sm'>MindBodyBalance: Nurturing Mental and Physical Well-being</p>
               </div>
 
               <div className='rounded-full'>
                 <img src={ profileImage3 } className='' alt="" />
               </div>
               <div>
-                <span className='font-semibold'>EcoWarrior21</span>
-                <p className='text-sm'>Green Guardians: Empowering Sustainable Communities</p>
+                <span className='font-semibold'>ArtisticVisionary</span>
+                <p className='text-sm'>Colors of Change: Inspiring Social Transformation Through Art</p>
               </div>
             
             </div>
