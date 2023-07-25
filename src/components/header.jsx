@@ -46,13 +46,13 @@ const header = () => {
       <div className='grid items-center justify-items-end col-start-3 col-end-4 row-start-2 row-end-4'>
         <ul className='flex gap-x-4'>
           <li className='navItems'>
-            <button className='bg-sky-500/75 rounded-full w-20 h-9 text-slate-50/100'>New</button>
+            <button className='bg-blue-950/80 rounded-full w-20 h-9 text-slate-50/100'>New</button>
             </li>
           <li className='navItems'>
-            <button className='bg-sky-500/75 rounded-full w-20 h-9 text-slate-50/100'>Upload</button>
+            <button className='bg-blue-950/80 rounded-full w-20 h-9 text-slate-50/100'>Upload</button>
           </li>
           <li className='navItems'>
-            <button className='bg-sky-500/75 rounded-full w-20 h-9 text-slate-50/100'>Share</button>
+            <button className='bg-blue-950/80 rounded-full w-20 h-9 text-slate-50/100'>Share</button>
             </li>
         </ul>
       </div>
