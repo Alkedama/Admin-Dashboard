@@ -5,7 +5,7 @@ import ProfileImage from './../assets/rudra.svg';
 
 const header = () => {
   return (
-    <div className='header p-5 bg-slate-50/100 shadow-lg shadow-cyan-100/80'>
+    <div className='header p-5 bg-slate-50/100 shadow-lg shadow-slate-100/50'>
 
       <div className='col-start-1 col-end-3'>
         <label className='relative block'>

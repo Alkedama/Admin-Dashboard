@@ -1,9 +1,12 @@
 import Icon from '@mdi/react';
 import { mdiStarOutline, mdiEyeOutline, mdiShareVariantOutline } from '@mdi/js';
+import profileImage1 from '.././assets/1.png';
+import profileImage2 from '.././assets/2.png';
+import profileImage3 from '.././assets/3.png';
 
 const mainContent = () => {
   return (
-    <div className='mainContent grid px-4 pt-4'>
+    <div className='mainContent grid px-4 pt-4 mb-5'>
 
       <div className='flex place-items-center mb-1 col-start-1 col-end-2'>
         <span className="font-bold">Your Projects</span>
@@ -115,11 +118,64 @@ const mainContent = () => {
 
       </div>
 
-      <div className="col-start-2 col-end-3 row-start-1 row-end-2">
-        Announcement
-        AnnouncementContents
-        Trending
-        TrendingContents
+      <div className="col-start-2 col-end-3 row-start-1 row-end-4 mx-3">
+        <div className="grid gap-y-2">
+          <div>
+            <span className="font-bold">Announcement</span>
+          </div>
+
+          <div className="container mx-auto">
+            <div className="bg-white rounded-lg p-5 shadow-md grid grid-cols-1 divide-y gap-y-5">
+            <div>
+              <h2 className='font-semibold text-black'>Sustainable Living Center Grand Opening</h2>
+              <p className='text-sm'>Join us for the grand opening of our Sustainable Living Center, promoting eco-friendly practices and renewable energy. Explore exhibits, attend workshops, and create a greener future.</p>
+            </div>
+
+            <div>
+              <h2 className='font-semibold'>Tech Innovations Summit 2023</h2>
+              <p className='text-sm'>Join industry pioneers and tech enthusiasts at the Tech Innovations Summit 2023. Discover AI, blockchain, VR advancements, and network with experts.</p>
+            </div>
+
+            <div>
+              <h2 className='font-semibold'>Sustainable Living Center Grand Opening</h2>
+              <p className='text-sm'>Join us for the grand opening of our Sustainable Living Center, promoting eco-friendly practices and renewable energy. Explore exhibits, attend workshops, and create a greener future.</p>
+            </div>
+            </div>
+          </div>
+
+          <div className='mt-5'>
+            <span className="font-bold">Trending</span>
+          </div>
+          <div className="container mx-auto mx-2 break-words">
+            <div className="bg-white rounded-lg p-5 shadow-md grid trendingContent gap-y-8 gap-x-3 place-items-center">
+              <div className='rounded-full'>
+                <img src={ profileImage1 } className='' alt="" />
+              </div>
+              <div>
+                <span className='font-semibold'>EcoWarrior21</span>
+                <p className='text-sm'>Green Guardians: Empowering Sustainable Communities</p>
+              </div>
+
+              <div className='rounded-full'>
+                <img src={ profileImage2 } className='' alt="" />
+              </div>
+              <div>
+                <span className='font-semibold'>WellnessExplorersss</span>
+                <p className='text-sm'>Green Guardians: Empowering Sustainable Communities</p>
+              </div>
+
+              <div className='rounded-full'>
+                <img src={ profileImage3 } className='' alt="" />
+              </div>
+              <div>
+                <span className='font-semibold'>EcoWarrior21</span>
+                <p className='text-sm'>Green Guardians: Empowering Sustainable Communities</p>
+              </div>
+            
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   )
